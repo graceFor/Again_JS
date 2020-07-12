@@ -1,11 +1,3 @@
-const calculator = {
-  plus: function (a, b) {
-    return a + b;
-  },
-  minus: function (a, b) {
-    return a - b;
-  },
-};
+const title = document.getElementById("title");
 
-console.log(calculator.plus(5, 7));
-console.log(calculator.minus(7, 3));
+title.innerHTML = "Hi!";
