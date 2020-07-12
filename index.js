@@ -1,5 +1,11 @@
-function sayHello(name, age) {
-  console.log(`Hello ${name} you are ${age} years old`);
-}
+const calculator = {
+  plus: function (a, b) {
+    return a + b;
+  },
+  minus: function (a, b) {
+    return a - b;
+  },
+};
 
-sayHello("Nicolae", 14);
+console.log(calculator.plus(5, 7));
+console.log(calculator.minus(7, 3));
